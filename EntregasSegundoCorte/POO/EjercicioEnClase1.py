@@ -1,19 +1,13 @@
-class circle:
+class Circle:
     pi=3.14
     def area(self, radius):
-        return circle.pi * radius **2
-Circle = circle()
-pizza_area = Circle.area(12 / 2)
-teaching_table_area = Circle.area(36/2)
-round_room_area = Circle.area(11460/2)
+        return Circle.pi * radius **2
+circle = Circle()
+pizza_area = circle.area(12 / 2)
+teaching_table_area = circle.area(36/2)
+round_room_area = circle.area(11460/2)
 
-print(type(Circle))
+print(type(circle))
 print(pizza_area)
 print(teaching_table_area)
 print(round_room_area)
-
-class circulo:
-    pi=3.14
-    def _init_(self,diameter):
-    print('New circle with diameter: {}'.format(diameter))
-teaching_table = circulo(36)
